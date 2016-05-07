@@ -13,11 +13,43 @@
 	</div>
 </div>
 
-<div class="container">
+		<!-- Search Parameters Panel  -->
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+<!-- 			create a form that gets the search term, number of records to retireve the start year and end year. You should also have button that runs the search and a clear button to clear the inputs
+
+ -->
+		 <div class="input-group">
+		  <span class="input-group-addon" id="formSearch">Search Terms</span>
+		  <input type="text" class="form-control" aria-describedby="basic-addon1">
+		 </div>
+<br>
+		<div class="input-group">
+		  <span class="input-group-addon" id="formRecords">Number of Records to Retrieve</span>
+
+			<select class="form-control">
+			<option>1</option>
+			<option>5</option>
+			<option>10</option>
+			</select>
+		</div>
+<br>
+		<div class="input-group">
+		  <span class="input-group-addon" id="formStart">Start Year (Optional)</span>
+		  <input type="text" class="form-control" aria-describedby="basic-addon1">
+		</div>
+
+<br>
+		<div class="input-group">
+		  <span class="input-group-addon" id="formEnd">End Year (Optional)</span>
+		  <input type="text" class="form-control" aria-describedby="basic-addon1">
+		</div>
+	</div>		
+</div>
 </div>
 
 
 <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
-<script src='assets/javascript/logic.js'></script>
+<script src='logic.js'></script>
 </body>
 </html>
